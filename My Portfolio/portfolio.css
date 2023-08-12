@@ -1,0 +1,431 @@
+* {
+  margin: 9px;
+  padding: 5px;
+  scroll-behavior: smooth;
+}
+
+.portfoliotxt {
+  font-size: 35px;
+}
+
+body {
+  color: white;
+  background-color: #081b29;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.home {
+  background-color: #081b29;
+}
+
+
+.navbar {
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+
+header .left {
+  width: 18%;
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  color: aqua;
+
+}
+
+header .center {
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  font-size: 19px;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+
+}
+
+header .right {
+  width: 19%;
+  text-align: right;
+  display: inline-block;
+  filter: invert();
+
+}
+
+.center ul li {
+  list-style: none;
+  padding: 10px;
+ 
+}
+
+.center ul li a {
+  text-decoration: none;
+  color: white;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.center ul {
+  display: inline-flex;
+  /* border: 1px solid yellow; */
+  border-radius: 20px;
+
+}
+
+.center li a:hover {
+  color: rgb(21, 227, 124);
+
+}
+
+.center li:hover {
+  transform: scale(1.2);
+ 
+  transition: 90ms;
+}
+
+.center li a.active {
+  color: rgb(21, 227, 124);
+}
+
+.linkd {
+  width: 18px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.insta {
+  width: 20px;
+  padding: 0%;
+  margin: 0%;
+  padding-left: 30px;
+
+}
+
+.twitter {
+  width: 18px;
+  padding: 0%;
+  margin: 0%;
+  padding-left: 30px;
+}
+
+.right a img {
+  padding-left: 0%;
+  padding: 0%;
+  margin: 0%;
+}
+
+.right a img:hover {
+  transform: scale(1.4);
+ transition: 100ms;
+ 
+}
+
+section.intro {
+  margin-left: 25px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 55%;
+}
+
+.intro h1 {
+  font-size: 65px;
+  margin: 0%;
+  margin-top: 20px;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.intro h2 {
+  color: rgb(21, 227, 124);
+  margin: 0%;
+  margin-bottom: 20px;
+  margin-top: 0%;
+  font-size: 40px;
+  padding-top: 0%;
+}
+
+.intro p {
+  text-align: justify;
+  width: 600px;
+  font-size: 20px;
+  margin-left: 0%;
+
+}
+
+.btn {
+  width: 320px;
+  height: 50px;
+  display: inline-flex;
+}
+
+.btn a {
+  background-color: rgb(21, 227, 124);
+  color: #081b29;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 7px;
+  text-decoration: none;
+  height: 50px;
+  width: 150px;
+  margin: 0%;
+  padding: 0%;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 19px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.btn a:hover {
+  background-color: aqua;
+  transform: scale(1.06);
+  box-shadow: 0 0 10px rgba(184, 169, 169, 0.5);
+  transition: 90ms;
+}
+
+.image {
+  display: inline-block;
+  margin: 0%;
+  padding: 0%;
+  filter: drop-shadow(6px 6px 70px rgb(114, 113, 113));
+  border: none;
+}
+
+div .home {
+  width: 400px;
+  height: 280px;
+  border-radius: 15px;
+  
+  
+}
+
+.img {
+  display: inline-block;
+}
+
+.abouttittle h2 {
+  border: 1px solid #11293b;
+  border-radius: 20px;
+  text-align: center;
+  width: 84%;
+  padding-left: 20px;
+  margin: 0%;
+  margin-left: 73px;
+  letter-spacing: 5px;
+  margin-top: 40px;
+  background-color:#11293b;
+}
+
+.leftbox {
+  border: 1px solid yellow;
+  width: 30%;
+  border-radius: 20px;
+  height: 287px;
+}
+
+.middlebox {
+  border: 1px solid yellow;
+  width: 30%;
+  border-radius: 20px;
+  height: 287px;
+
+}
+
+.rightbox {
+  border: 1px solid yellow;
+  width: 30%;
+  border-radius: 20px;
+  height: 287px;
+}
+
+.leftbox:hover {
+  transform: scale(1.04);
+  height: 300px;
+  background-color: rgb(180, 180, 19);
+  color: #081b29;
+  font-size: 17px;
+  transition: 0.5s;
+  font-weight: bold;
+  filter: drop-shadow(6px 6px 40px rgb(106, 104, 104));
+}
+
+.middlebox:hover {
+  transform: scale(1.04);
+  height: 300px;
+  background-color: rgb(180, 180, 19);
+  color: #081b29;
+  font-size: 17px;
+  transition: 0.5s;
+  font-weight: bold;
+  filter: drop-shadow(6px 6px 40px rgb(106, 104, 104));
+}
+
+.rightbox:hover {
+  transform: scale(1.04);
+  height: 300px;
+  background-color: rgb(180, 180, 19);
+  color: #081b29;
+  font-size: 17px;
+  transition: 0.5s;
+  font-weight: bold;
+  filter: drop-shadow(6px 6px 40px rgb(106, 104, 104));
+}
+
+section .parabox {
+  display: inline-flex;
+}
+
+
+.myedu {
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.edupara .cllg {
+  color: bisque;
+}
+
+.skilltittle h2 {
+  border: 1px solid#11293b;
+  width: 86%;
+  padding-left: 20px;
+  margin: 0%;
+  border-radius: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 60px;
+  background-color:#11293b;
+ 
+}
+.skilldata{
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.myskill{
+  display: flex;
+  justify-content: space-evenly;
+}
+.skillbox:hover{
+  background-color: rgb(180, 180, 19);
+  transform: scale(1.1);
+  transition:0.5s ;
+  padding: 10px;
+  color:#081b29;
+  font-weight: bold;
+  filter: drop-shadow(6px 6px 30px rgb(106, 104, 104));
+}
+.skillbox{
+  border: 1px solid yellow;
+  width: 30%;
+  height: 50%;
+  border-radius: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.skillhd{
+  font-size: 20px;
+}
+.skillpr{
+  font-size: 60px;
+  margin-top: 30px;
+  color:aqua;
+  
+}
+.contacttittle h2{
+  border: 1px solid #11293b;
+  width: 86%;
+  padding-left: 20px;
+  margin: 0%;
+  border-radius: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-left: 60px;
+  /* margin-top: 60px; */
+  background-color: #081b29;
+}
+footer{
+  margin-top: 60px;
+  background-color: #11293b;
+  border-radius: 20px;
+  padding-bottom: 0px;
+
+}
+.contactmehd{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+.contactme{
+  text-align: center;
+  padding: 150px;
+  padding-top: 100px;
+}
+.gmailimg{
+      width: 20px;
+      margin-bottom: 0%;
+      padding-bottom: 0%;
+      margin-right: 0%;
+}
+.gmail{
+  text-decoration: none;
+  color: white;
+  padding-left: 0%;
+  margin-left: 0%;
+}
+.socialmedia{
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  
+}
+.linkedinlogo{
+  width: 20px;
+  margin-bottom: 0%;
+ padding-bottom: 0%;
+ padding-right: 0%;
+ filter: invert();
+}
+.instalogo{
+  width: 20px;
+  margin-bottom: 0%;
+ padding-bottom: 0%;
+ padding-right: 0%;
+ filter: invert();
+}
+.githublogo{
+  width: 20px;
+ margin-bottom: 0%;
+ padding-bottom: 0%;
+ padding-right: 0%;
+ filter: invert();
+ 
+}
+.follow{
+  margin-top: 40px;
+  color: rgb(14, 215, 135);
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.copyright{
+  color: bisque;
+  margin: 20px;
+}
+.footerlink{
+  text-decoration: none;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  
+}
+.contactmehd{
+  color:beige
+  
+}
